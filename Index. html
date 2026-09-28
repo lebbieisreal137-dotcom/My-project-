@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spider-Man</title>
+<style>
+body{margin:0;font-family:Arial;background:#0a0a0a;color:white;text-align:center}
+.hero{background:linear-gradient(135deg,#b00000,#001a8f);padding:60px 20px}
+.hero h1{font-size:45px;margin:0}
+.btn{display:inline-block;margin-top:20px;padding:12px 25px;background:white;color:#b00000;font-weight:bold;text-decoration:none;border-radius:30px}
+.cards{display:flex;flex-wrap:wrap;justify-content:center;gap:15px;padding:20px}
+.card{background:#1a1a1a;border:1px solid #333;border-radius:15px;width:280px;padding:20px}
+.card h3{color:#ff2a2a}
+</style>
+</head>
+<body>
+<div class="hero">
+<h1>SPIDER-MAN</h1>
+<p>With great power comes great responsibility.</p>
+<a class="btn" href="#about">Enter The Spider-Verse</a>
+</div>
+<div class="cards" id="about">
+<div class="card"><h3>Powers</h3><p>Super strength, wall-crawling, spider-sense</p></div>
+<div class="card"><h3>Origin</h3><p>Bitten by a radioactive spider</p></div>
+<div class="card"><h3>City</h3><p>Protecting Queens and New York</p></div>
+</div>
+</body>
+</html>
